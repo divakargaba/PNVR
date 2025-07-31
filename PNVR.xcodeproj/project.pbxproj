@@ -19,6 +19,8 @@
 		A1234567890123456789015A /* VRService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890123456789015B /* VRService.swift */; };
 		A1234567890123456789015C /* MLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890123456789015D /* MLService.swift */; };
 		A1234567890123456789015E /* HealthKitService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890123456789015F /* HealthKitService.swift */; };
+		A1234567890123456789016A /* ExerciseSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890123456789016B /* ExerciseSelectionView.swift */; };
+		A1234567890123456789016C /* SessionSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1234567890123456789016D /* SessionSummaryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		A1234567890123456789015B /* VRService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRService.swift; sourceTree = "<group>"; };
 		A1234567890123456789015D /* MLService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLService.swift; sourceTree = "<group>"; };
 		A1234567890123456789015F /* HealthKitService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitService.swift; sourceTree = "<group>"; };
+		A1234567890123456789016B /* ExerciseSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSelectionView.swift; sourceTree = "<group>"; };
+		A1234567890123456789016D /* SessionSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSummaryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,27 +57,29 @@
 			children = (
 				A1234567890123456789012B /* PNVRApp.swift */,
 				A1234567890123456789012D /* ContentView.swift */,
-				A1234567890123456789016A /* Views */,
-				A1234567890123456789016B /* ViewModels */,
-				A1234567890123456789016C /* Models */,
-				A1234567890123456789016D /* Services */,
+				A1234567890123456789016E /* Views */,
+				A1234567890123456789016F /* ViewModels */,
+				A1234567890123456789017A /* Models */,
+				A1234567890123456789017B /* Services */,
 				A1234567890123456789012F /* Assets.xcassets */,
 				A1234567890123456789013A /* Preview Content */,
 			);
 			path = PNVR;
 			sourceTree = "<group>";
 		};
-		A1234567890123456789016A /* Views */ = {
+		A1234567890123456789016E /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				A1234567890123456789013D /* RehabilitationView.swift */,
 				A1234567890123456789013F /* MetricsView.swift */,
 				A1234567890123456789014B /* VRIntegrationView.swift */,
+				A1234567890123456789016B /* ExerciseSelectionView.swift */,
+				A1234567890123456789016D /* SessionSummaryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		A1234567890123456789016B /* ViewModels */ = {
+		A1234567890123456789016F /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 				A1234567890123456789014D /* RehabilitationViewModel.swift */,
@@ -81,7 +87,7 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		A1234567890123456789016C /* Models */ = {
+		A1234567890123456789017A /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				A1234567890123456789014F /* MetricsModel.swift */,
@@ -89,7 +95,7 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		A1234567890123456789016D /* Services */ = {
+		A1234567890123456789017B /* Services */ = {
 			isa = PBXGroup;
 			children = (
 				A1234567890123456789015B /* VRService.swift */,
@@ -202,6 +208,8 @@
 				A1234567890123456789015A /* VRService.swift in Sources */,
 				A1234567890123456789015C /* MLService.swift in Sources */,
 				A1234567890123456789015E /* HealthKitService.swift in Sources */,
+				A1234567890123456789016A /* ExerciseSelectionView.swift in Sources */,
+				A1234567890123456789016C /* SessionSummaryView.swift in Sources */,
 				A1234567890123456789012A /* PNVRApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
